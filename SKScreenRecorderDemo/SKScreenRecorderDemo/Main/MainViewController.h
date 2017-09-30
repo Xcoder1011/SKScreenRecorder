@@ -1,13 +1,13 @@
 //
-//  SKScreenRecorder.h
+//  MainViewController.h
 //  SKScreenRecorderDemo
 //
 //  Created by KUN on 2017/9/30.
 //  Copyright © 2017年 lemon. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface SKScreenRecorder : NSObject
+@interface MainViewController : UIViewController
 
 @end

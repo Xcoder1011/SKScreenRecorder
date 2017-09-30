@@ -15,6 +15,8 @@
 		BC0F9EFF1F7F8479002681C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0F9EFD1F7F8479002681C9 /* LaunchScreen.storyboard */; };
 		BC0F9F021F7F8479002681C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0F9F011F7F8479002681C9 /* main.m */; };
 		BC0F9F0B1F7F86DD002681C9 /* SKScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0F9F0A1F7F86DD002681C9 /* SKScreenRecorder.m */; };
+		BC0F9F1C1F7F9FE0002681C9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0F9F1A1F7F9FE0002681C9 /* MainViewController.m */; };
+		BC0F9F1D1F7F9FE0002681C9 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0F9F1B1F7F9FE0002681C9 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,10 @@
 		BC0F9F011F7F8479002681C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC0F9F091F7F86DD002681C9 /* SKScreenRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKScreenRecorder.h; sourceTree = "<group>"; };
 		BC0F9F0A1F7F86DD002681C9 /* SKScreenRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKScreenRecorder.m; sourceTree = "<group>"; };
+		BC0F9F171F7F93AB002681C9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BC0F9F191F7F9FE0002681C9 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BC0F9F1A1F7F9FE0002681C9 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BC0F9F1B1F7F9FE0002681C9 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		C51493EC2FA5BBCF9C318E78 /* Pods-SKScreenRecorderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKScreenRecorderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKScreenRecorderDemo/Pods-SKScreenRecorderDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F517044523C5BA367F113356 /* Pods-SKScreenRecorderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKScreenRecorderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKScreenRecorderDemo/Pods-SKScreenRecorderDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,7 @@
 		BC0F9EE61F7F8479002681C9 = {
 			isa = PBXGroup;
 			children = (
+				BC0F9F081F7F8690002681C9 /* SKScreenRecorder */,
 				BC0F9EF11F7F8479002681C9 /* SKScreenRecorderDemo */,
 				BC0F9EF01F7F8479002681C9 /* Products */,
 				EBBFD42D8B2A547A0B529417 /* Pods */,
@@ -76,16 +83,10 @@
 		BC0F9EF11F7F8479002681C9 /* SKScreenRecorderDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BC0F9F081F7F8690002681C9 /* SKScreenRecorder */,
 				BC0F9EF21F7F8479002681C9 /* AppDelegate.h */,
 				BC0F9EF31F7F8479002681C9 /* AppDelegate.m */,
-				BC0F9EF51F7F8479002681C9 /* ViewController.h */,
-				BC0F9EF61F7F8479002681C9 /* ViewController.m */,
-				BC0F9EF81F7F8479002681C9 /* Main.storyboard */,
-				BC0F9EFB1F7F8479002681C9 /* Assets.xcassets */,
-				BC0F9EFD1F7F8479002681C9 /* LaunchScreen.storyboard */,
-				BC0F9F001F7F8479002681C9 /* Info.plist */,
-				BC0F9F011F7F8479002681C9 /* main.m */,
+				BC0F9F181F7F9F04002681C9 /* Main */,
+				BC0F9F161F7F935D002681C9 /* Other */,
 			);
 			path = SKScreenRecorderDemo;
 			sourceTree = "<group>";
@@ -96,8 +97,48 @@
 				BC0F9F091F7F86DD002681C9 /* SKScreenRecorder.h */,
 				BC0F9F0A1F7F86DD002681C9 /* SKScreenRecorder.m */,
 			);
-			name = SKScreenRecorder;
-			path = ../../SKScreenRecorder;
+			path = SKScreenRecorder;
+			sourceTree = "<group>";
+		};
+		BC0F9F161F7F935D002681C9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BC0F9EF51F7F8479002681C9 /* ViewController.h */,
+				BC0F9EF61F7F8479002681C9 /* ViewController.m */,
+				BC0F9EF81F7F8479002681C9 /* Main.storyboard */,
+				BC0F9EFB1F7F8479002681C9 /* Assets.xcassets */,
+				BC0F9EFD1F7F8479002681C9 /* LaunchScreen.storyboard */,
+				BC0F9F001F7F8479002681C9 /* Info.plist */,
+				BC0F9F011F7F8479002681C9 /* main.m */,
+				BC0F9F171F7F93AB002681C9 /* PrefixHeader.pch */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		BC0F9F181F7F9F04002681C9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BC0F9F191F7F9FE0002681C9 /* MainViewController.h */,
+				BC0F9F1A1F7F9FE0002681C9 /* MainViewController.m */,
+				BC0F9F1B1F7F9FE0002681C9 /* MainViewController.xib */,
+				BC0F9F1E1F7FA1DB002681C9 /* Controllers */,
+				BC0F9F1F1F7FA1DB002681C9 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BC0F9F1E1F7FA1DB002681C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC0F9F1F1F7FA1DB002681C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		EBBFD42D8B2A547A0B529417 /* Pods */ = {
@@ -173,6 +214,7 @@
 				BC0F9EFF1F7F8479002681C9 /* LaunchScreen.storyboard in Resources */,
 				BC0F9EFC1F7F8479002681C9 /* Assets.xcassets in Resources */,
 				BC0F9EFA1F7F8479002681C9 /* Main.storyboard in Resources */,
+				BC0F9F1D1F7F9FE0002681C9 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +276,7 @@
 				BC0F9EF71F7F8479002681C9 /* ViewController.m in Sources */,
 				BC0F9F0B1F7F86DD002681C9 /* SKScreenRecorder.m in Sources */,
 				BC0F9F021F7F8479002681C9 /* main.m in Sources */,
+				BC0F9F1C1F7F9FE0002681C9 /* MainViewController.m in Sources */,
 				BC0F9EF41F7F8479002681C9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +414,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LH66V26Z7L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKScreenRecorderDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = SKScreenRecorderDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -387,6 +432,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LH66V26Z7L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKScreenRecorderDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = SKScreenRecorderDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
