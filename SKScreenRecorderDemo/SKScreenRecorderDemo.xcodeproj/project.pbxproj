@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4509E76060EE977AD442DF77 /* libPods-SKScreenRecorderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0611197A2B71AEF35B4DEDA5 /* libPods-SKScreenRecorderDemo.a */; };
+		BC0F9EF41F7F8479002681C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0F9EF31F7F8479002681C9 /* AppDelegate.m */; };
+		BC0F9EF71F7F8479002681C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0F9EF61F7F8479002681C9 /* ViewController.m */; };
+		BC0F9EFA1F7F8479002681C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0F9EF81F7F8479002681C9 /* Main.storyboard */; };
+		BC0F9EFC1F7F8479002681C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0F9EFB1F7F8479002681C9 /* Assets.xcassets */; };
+		BC0F9EFF1F7F8479002681C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0F9EFD1F7F8479002681C9 /* LaunchScreen.storyboard */; };
+		BC0F9F021F7F8479002681C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0F9F011F7F8479002681C9 /* main.m */; };
+		BC0F9F0B1F7F86DD002681C9 /* SKScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0F9F0A1F7F86DD002681C9 /* SKScreenRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0611197A2B71AEF35B4DEDA5 /* libPods-SKScreenRecorderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKScreenRecorderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0F9EEF1F7F8479002681C9 /* SKScreenRecorderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKScreenRecorderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0F9EF21F7F8479002681C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC0F9EF31F7F8479002681C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC0F9EF51F7F8479002681C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC0F9EF61F7F8479002681C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC0F9EF91F7F8479002681C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC0F9EFB1F7F8479002681C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC0F9EFE1F7F8479002681C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC0F9F001F7F8479002681C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0F9F011F7F8479002681C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC0F9F091F7F86DD002681C9 /* SKScreenRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKScreenRecorder.h; sourceTree = "<group>"; };
+		BC0F9F0A1F7F86DD002681C9 /* SKScreenRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKScreenRecorder.m; sourceTree = "<group>"; };
+		C51493EC2FA5BBCF9C318E78 /* Pods-SKScreenRecorderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKScreenRecorderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKScreenRecorderDemo/Pods-SKScreenRecorderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F517044523C5BA367F113356 /* Pods-SKScreenRecorderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKScreenRecorderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKScreenRecorderDemo/Pods-SKScreenRecorderDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0F9EEC1F7F8479002681C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509E76060EE977AD442DF77 /* libPods-SKScreenRecorderDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3427FB8BF25AB12F134F2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0611197A2B71AEF35B4DEDA5 /* libPods-SKScreenRecorderDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC0F9EE61F7F8479002681C9 = {
+			isa = PBXGroup;
+			children = (
+				BC0F9EF11F7F8479002681C9 /* SKScreenRecorderDemo */,
+				BC0F9EF01F7F8479002681C9 /* Products */,
+				EBBFD42D8B2A547A0B529417 /* Pods */,
+				AC3427FB8BF25AB12F134F2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0F9EF01F7F8479002681C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0F9EEF1F7F8479002681C9 /* SKScreenRecorderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0F9EF11F7F8479002681C9 /* SKScreenRecorderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC0F9F081F7F8690002681C9 /* SKScreenRecorder */,
+				BC0F9EF21F7F8479002681C9 /* AppDelegate.h */,
+				BC0F9EF31F7F8479002681C9 /* AppDelegate.m */,
+				BC0F9EF51F7F8479002681C9 /* ViewController.h */,
+				BC0F9EF61F7F8479002681C9 /* ViewController.m */,
+				BC0F9EF81F7F8479002681C9 /* Main.storyboard */,
+				BC0F9EFB1F7F8479002681C9 /* Assets.xcassets */,
+				BC0F9EFD1F7F8479002681C9 /* LaunchScreen.storyboard */,
+				BC0F9F001F7F8479002681C9 /* Info.plist */,
+				BC0F9F011F7F8479002681C9 /* main.m */,
+			);
+			path = SKScreenRecorderDemo;
+			sourceTree = "<group>";
+		};
+		BC0F9F081F7F8690002681C9 /* SKScreenRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				BC0F9F091F7F86DD002681C9 /* SKScreenRecorder.h */,
+				BC0F9F0A1F7F86DD002681C9 /* SKScreenRecorder.m */,
+			);
+			name = SKScreenRecorder;
+			path = ../../SKScreenRecorder;
+			sourceTree = "<group>";
+		};
+		EBBFD42D8B2A547A0B529417 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C51493EC2FA5BBCF9C318E78 /* Pods-SKScreenRecorderDemo.debug.xcconfig */,
+				F517044523C5BA367F113356 /* Pods-SKScreenRecorderDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0F9EEE1F7F8479002681C9 /* SKScreenRecorderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0F9F051F7F8479002681C9 /* Build configuration list for PBXNativeTarget "SKScreenRecorderDemo" */;
+			buildPhases = (
+				4AB17A540A22BCBA0F0D1595 /* [CP] Check Pods Manifest.lock */,
+				BC0F9EEB1F7F8479002681C9 /* Sources */,
+				BC0F9EEC1F7F8479002681C9 /* Frameworks */,
+				BC0F9EED1F7F8479002681C9 /* Resources */,
+				FE59EA6D49776ACE73E75FE4 /* [CP] Embed Pods Frameworks */,
+				48583C7963561770DE377437 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKScreenRecorderDemo;
+			productName = SKScreenRecorderDemo;
+			productReference = BC0F9EEF1F7F8479002681C9 /* SKScreenRecorderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0F9EE71F7F8479002681C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lemon;
+				TargetAttributes = {
+					BC0F9EEE1F7F8479002681C9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BC0F9EEA1F7F8479002681C9 /* Build configuration list for PBXProject "SKScreenRecorderDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC0F9EE61F7F8479002681C9;
+			productRefGroup = BC0F9EF01F7F8479002681C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0F9EEE1F7F8479002681C9 /* SKScreenRecorderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0F9EED1F7F8479002681C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0F9EFF1F7F8479002681C9 /* LaunchScreen.storyboard in Resources */,
+				BC0F9EFC1F7F8479002681C9 /* Assets.xcassets in Resources */,
+				BC0F9EFA1F7F8479002681C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48583C7963561770DE377437 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKScreenRecorderDemo/Pods-SKScreenRecorderDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AB17A540A22BCBA0F0D1595 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE59EA6D49776ACE73E75FE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKScreenRecorderDemo/Pods-SKScreenRecorderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0F9EEB1F7F8479002681C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0F9EF71F7F8479002681C9 /* ViewController.m in Sources */,
+				BC0F9F0B1F7F86DD002681C9 /* SKScreenRecorder.m in Sources */,
+				BC0F9F021F7F8479002681C9 /* main.m in Sources */,
+				BC0F9EF41F7F8479002681C9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC0F9EF81F7F8479002681C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0F9EF91F7F8479002681C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC0F9EFD1F7F8479002681C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0F9EFE1F7F8479002681C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0F9F031F7F8479002681C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC0F9F041F7F8479002681C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0F9F061F7F8479002681C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51493EC2FA5BBCF9C318E78 /* Pods-SKScreenRecorderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LH66V26Z7L;
+				INFOPLIST_FILE = SKScreenRecorderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lemon.SKScreenRecorderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC0F9F071F7F8479002681C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F517044523C5BA367F113356 /* Pods-SKScreenRecorderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LH66V26Z7L;
+				INFOPLIST_FILE = SKScreenRecorderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lemon.SKScreenRecorderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0F9EEA1F7F8479002681C9 /* Build configuration list for PBXProject "SKScreenRecorderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0F9F031F7F8479002681C9 /* Debug */,
+				BC0F9F041F7F8479002681C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0F9F051F7F8479002681C9 /* Build configuration list for PBXNativeTarget "SKScreenRecorderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0F9F061F7F8479002681C9 /* Debug */,
+				BC0F9F071F7F8479002681C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0F9EE71F7F8479002681C9 /* Project object */;
+}
